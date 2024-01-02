@@ -5,7 +5,7 @@ body {
   /* Navigation Bar */
   
   #home {
-    background-color:  #7600bc;
+    background-color:  #038C5A;
     padding-bottom: 1cm;
     margin-left:-1cm;
     margin-right:-1cm;
@@ -64,7 +64,7 @@ body {
     font-size: 50px;
     text-align: center;
     float: left;
-    color: #7600bc;
+    color: #038C5A;
     margin: 30px;
     margin-left: 60px;
     margin-top: 40px;
@@ -98,7 +98,7 @@ body {
   #about-me h1 {
     font-size: 65px;
     margin-top: 90px;
-    color: #7600bc;
+    color: #038C5A;
   }
   
   #about-me p {
@@ -177,6 +177,11 @@ body {
   .project-card {
     margin: 0 15px 15px 30px;
     padding-bottom: 5px;
+    border-radius: 6px;
+  }
+
+  .project-card:hover {
+    background-color: #038c5a8a;
   }
   
   .project-card h3 {
@@ -195,7 +200,7 @@ body {
     width: 48px;
     height: 48px;
     border-radius: 100%;
-    background-color: #7600bc;
+    background-color: #038C5A;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -205,75 +210,12 @@ body {
     cursor: pointer;
   }
   
-  /* Form Pop-up */
-  
-  .popup {
-    width:400px;
-    background-color: #e8bcf0;
-    border-radius: 3mm;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-    position: fixed;
-    /* padding: 30px; */
-    visibility: hidden;
-  }
-  
-  .popup img {
-    padding-top: 20px;
-  }
-  
-  .popup button {
-    background-color: #fff;
-    border: 1px solid #7600bc;
-    color: #7600bc;
-    display: block;
-    border-radius: 6px;
-    text-align: center;
-    margin: 50px;
-    padding: 10px;
-    width: 2in;
-    font-size: 20px;
-    margin-left: 25%;
-  }
-  
-  .popup button:hover {
-    background-color: #fff;
-    border: 2px solid #7600bc;
-    color: #7600bc;
-    display: block;
-    font-weight: bolder;
-    text-align: center;
-    cursor: pointer;
-    margin-left: 25%;
-  }
-  
-  /* Recommendation Form */
-  
-  input, textarea {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-    margin: 10px;  
-    width:100%;
-  }
-  
-  fieldset {
-    display: flexbox;
-    align-content: center;
-    justify-content: center;  
-    padding: 25px; 
-    margin-left: 50px; 
-    margin-right: 50px;   
-    border: thin solid white;
-    width: 50%;
-  }
-  
   /* Buttons */
   
   button {
     background-color: #fff;
-    border: 1px solid #7600bc;
-    color: #7600bc;
+    border: 1px solid #038C5A;
+    color: #038C5A;
     display: block;
     border-radius: 6px;
     text-align: center;
@@ -284,8 +226,8 @@ body {
   }
   
   button:hover {
-    background-color: #7600bc;
-    border: 1px solid #7600bc;
+    background-color: #038C5A;
+    border: 1px solid #038C5A;
     color: #fff;
     display: block;
     border-radius: 6px;
@@ -307,7 +249,10 @@ body {
   .education {
     display: flex;
     flex-direction: row;
-    margin: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 10px;
     border: 1px solid black;
     border-radius: 6px;
@@ -315,7 +260,7 @@ body {
   }
 
   .education:hover {
-    background-color: #F6D7FA;
+    background-color: #038c5a8a;
   }
 
   .education img {
@@ -348,4 +293,52 @@ body {
   .education-info h3, h4 {
     font-style: italic;
     margin: 30px;
+  }
+
+  /* Certifications */
+
+  .all-certifications {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .certification {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+    box-shadow: 0 3px 10px gray;
+  }
+
+  .certification-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .certification-info div {
+    margin: 20px;
+    font-size: 30px;
+    text-align: right;
+  }
+
+  .certification:hover {
+    background-color: #038c5a8a;
+  }
+
+  footer {
+    width: 100%;
+    height: 48px;
+    background-color: #038C5A;
+    color: white;
+    font-size: 20px;
+    padding: 10px 2cm 10px;
+    display: flex;
+    align-items: center;
+    margin: 0cm -1cm -1cm;
   }

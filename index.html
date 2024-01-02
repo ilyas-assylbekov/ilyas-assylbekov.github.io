@@ -48,7 +48,7 @@
             Hello, I'm Ilyas! <img src="https://images.emojiterra.com/google/noto-emoji/unicode-15/animated/1f44b.gif" width="60px"/>
           </h1>
           <p>
-            I am an upcoming full stack and game developer. I worked on applications using IBM Cloud services.
+            I am an upcoming Full Stack and Game Developer. I worked on applications using IBM Cloud services.
             I have developed games using LÖVE game engine in Lua. Currently pursuing Bachelors in Computer Science.
             Open to intern at your company!
           </p>
@@ -59,22 +59,23 @@
     <section id="education">
         <h2>Education</h2>
         <div style="clear:both;"></div>
-        <a href="https://nu.edu.kz/" target="_blank">
-            <div class="all-education">
-                <div class="education">
-                    <div class="education-info">
-                        <div>
-                            <h3>Nazarbayev University</h3>
-                            <h4 style="margin-left: auto;">August 2022 - Present</h4>
-                        </div>
-                        <div style="font-weight: normal;">
-                            <h4>GPA: 3.6/4.0</h4>
-                            <h4 style="margin-left: auto;">Astana, Kazakhstan</h4>
-                        </div>
-                    </div>
-                    <img src="images/nu.png">
-                </div>
+        <div class="all-education">
+          <a href="https://nu.edu.kz/" target="_blank">
+            <div class="education">
+              <div class="education-info">
+                  <div>
+                      <h3>Nazarbayev University</h3>
+                      <h4 style="margin-left: auto;">August 2022 - Present</h4>
+                  </div>
+                  <div style="font-weight: normal;">
+                      <h4>GPA: 3.6/4.0</h4>
+                      <h4 style="margin-left: auto;">Astana, Kazakhstan</h4>
+                  </div>
+              </div>
+              <img src="images/nu.png">
             </div>
+          </a>
+        </div>
         </a>
     </section>
 
@@ -82,6 +83,48 @@
     <section id="certifications">
         <h2>Certifications</h2>
         <div style="clear:both;"></div>
+        <div class="all-certifications">
+          <!--Game Dev-->
+          <a href="https://pll.harvard.edu/course/cs50s-introduction-game-development" target="_blank">
+            <div class="certification">
+              <img src="images/harvard.png" style="width: 30%; height: 100%; margin: 20px;">
+              <div class="certification-info">
+                <div style="font-size: 30px;">“CS50's Introduction to Game Development” Course</div>
+                <div style="font-size: 20px; font-style: italic;">November 2023 - Present</div>
+              </div>
+            </div>
+          </a>
+          <!--IBM Intro HTML, CSS, JS-->
+          <a href="https://www.edx.org/learn/web-development/ibm-introduction-to-web-development-with-html5-css3-and-javascript" target="_blank">
+            <div class="certification">
+              <img src="images/ibm.png" style="width: 30%; height: 100%; margin: 20px;">
+              <div class="certification-info">
+                <div style="font-size: 30px;">“Introduction to Web Development with HTML5, CSS3, and JavaScript” Course</div>
+                <div style="font-size: 20px; font-style: italic;">December 2023 - January 2024</div>
+              </div>
+            </div>
+          </a>
+          <!--IBM Intro Cloud-->
+          <a href="https://www.edx.org/learn/cloud-computing/ibm-introduction-to-cloud-computing" target="_blank">
+            <div class="certification">
+              <img src="images/ibm.png" style="width: 30%; height: 100%; margin: 20px;">
+              <div class="certification-info">
+                <div style="font-size: 30px;">“Introduction to Cloud Computing” Course</div>
+                <div style="font-size: 20px; font-style: italic;">December 2023 - December 2023</div>
+              </div>
+            </div>
+          </a>
+          <!--John Hopkins CTY-->
+          <a href="https://cty.jhu.edu/" target="_blank">
+            <div class="certification">
+              <img src="images/hopkins.png" style="width: 30%; height: 100%; margin: 20px;">
+              <div class="certification-info">
+                <div style="font-size: 30px;">“Designing Inclusive Algorithms” Course</div>
+                <div style="font-size: 20px; font-style: italic;">June 2021 – July 2022</div>
+              </div>
+            </div>
+          </a>
+        </div>
     </section>
               
     <!-- Skills -->
@@ -148,54 +191,88 @@
       <div style="clear:both;"></div>
 
         <div id="projects-container" class="projects-container">
-          <div class="project-card">
-            <h3>Chatbot</h3>
-            <ul>
-              <li>Developed a secure website integrated with chatbot for an automobile client using HTML, CSS, JavaScript and IBM Watson Assistant</li>
-            </ul>
-          </div>
+          <!--Innovate-X-->
+          <a href="https://github.com/ilyas-assylbekov/innovate-x" target="_blank">
+            <div class="project-card">
+              <h3>Innovate-X</h3>
+              <ul>
+                <li>24-hour project for AIESEC Hackathon that used MobilenetSSD trained AI model to count a number of people
+                   in and out the virtual half-centered vertical line of the laptop camera. Written purely on Python.</li>
+              </ul>
+            </div>
+          </a>
           <hr>
-          <div class="project-card">
-            <h3>Sentiment Analyzer</h3>
-            <ul>
-              <li>Developed and deployed a sentiment analyzer for the box reviews section of an eCommerce platform using IBM NLU</li>
-            </ul>
-          </div>
+          <!--Pong-->
+          <a href="https://github.com/ilyas-assylbekov/pong" target="_blank">
+            <div class="project-card">
+              <h3>Pong</h3>
+              <ul>
+                <li>First project at CS50’s Introduction to Game Development that implemented the 1972 Atari game – Pong.
+                   Written purely on Lua and uses the LÖVE framework. Helped me understand the structure and development
+                    process of games. The first project was to implement simple AI to play against a computer.</li>
+              </ul>
+            </div>
+          </a>
           <hr>
-          <div class="project-card">
-            <h3>Fashion Website</h3>
-            <ul>
-              <li>Created a styled multi-page website for a new player in the fashion industry and integrated it with a shopping cart, using stripe for payment gateway</li>
-            </ul>
-          </div>
+          <!--Flappy Bird-->
+          <a href="https://github.com/ilyas-assylbekov/flappy-bird" target="_blank">
+            <div class="project-card">
+              <h3>Flappy Bird</h3>
+              <ul>
+                <li>Second project at CS50’s Introduction to Game Development that implemented a popular mobile game –
+                   Flappy Bird. Written purely on Lua and uses the LÖVE framework. Introduced me to the state machine.
+                    Helped me understand rendering of the textures. Individually, I implemented a pause feature, modified pipe
+                     generation and introduced a prize system for different scores.</li>
+              </ul>
+            </div>
+          </a>
+          <hr>
+          <!--Breakout-->
+          <a href="https://github.com/ilyas-assylbekov/breakout" target="_blank">
+            <div class="project-card">
+              <h3>Breakout</h3>
+              <ul>
+                <li>Third project at CS50’s Introduction to Game Development that implemented the 1976 Atari game –
+                   Breakout. Written purely on Lua and uses the LÖVE framework. Introduced me to simple save file
+                    mechanics by saving high scores. Also, it helped me understand quads and how to work with atlasses.
+                     In addition, I got acquainted with project management and how to store code efficiently. As an assignment,
+                      I have implemented a powerup system, increasing and decreasing paddle size based on the score, and special
+                       bricks that can be broken only after getting a special powerup.</li>
+              </ul>
+            </div>
+          </a>
+          <hr>
+          <!--Match 3-->
+          <a href="https://github.com/ilyas-assylbekov/match3" target="_blank">
+            <div class="project-card">
+              <h3>Match 3</h3>
+              <ul>
+                <li>Fourth project at CS50’s Introduction to Game Development that implemented a game similar
+                   to modern Candy Crash. Via this project I got introduced to the concept of timers with Knife
+                    Lua library. As an assignment, I have implemented a “special tile” feature that would destroy
+                     the whole row if it is matched with 3 or more tiles. Also, I have upgraded the score system
+                      where different tiles will give different scores, and higher the level, more costly tiles will appear.
+                       Also, I implemented a feature where swapping would be allowed if it results in the match.
+                </li>
+              </ul>
+            </div>
+          </a>
+          <hr>
     </div>
     </section>
     <div style="clear:both;"></div>
 
-    <!-- Recommendation Form -->
-    <section id="contact">
-      <div class="flex_center">
-        <fieldset>
-          <legend class="introduction">Leave a Recommendation</legend>          
-          <input type="text" placeholder="Name (Optional)"> <br/>
-          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
-          <div class="flex_center">
-            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
-          </div>
-        </fieldset>
-      </div>
-    </section>
+    <footer>
+      &#169; 2024 Ilyas Assylbekov. All rights reserved.
+    </footer>
 
     <div class="iconbutton">
       <a href="#home">
         <!--Add the code here for the logo to appear and the icon to be actionable-->
+        <img src="images/home.png"
+          style="width: 60%; height: auto; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
       </a>
     </div>
 
-    <div class="popup" id="popup" class="flex_center">
-      <img src="images/checkmark--outline.svg"/>
-      <h3><!-- Add appropriate text here--></h3>
-      <button onclick="showPopup(false)">Ok</button>
-    </div>
   </body>
 </html>
