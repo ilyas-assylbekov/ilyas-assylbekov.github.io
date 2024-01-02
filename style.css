@@ -11,7 +11,7 @@ body {
     margin-right:-1cm;
     margin-top:-1cm;
     padding-top: 2cm;
-    padding-bottom: 2cm;
+    padding-bottom: 3cm;
     height: 5mm;
    }
   
@@ -19,7 +19,7 @@ body {
     color: lightgray;
     margin: 10px;
     padding: 20px;
-    font-size: 20px;
+    font-size: 30px;
     text-decoration:none;
   }
   
@@ -130,12 +130,12 @@ body {
     margin: 50px;
     padding: 10px;
     width: 2in;
-    font-size: 20px;
+    font-size: 30px;
     box-shadow: 0 3px 10px gray;
   }
   
   .skill img {
-    height: 35px;
+    height: 100px;
     align-items: center;
   }
   
@@ -187,38 +187,6 @@ body {
   .project-card li {
     font-size: 20px;
     margin-left: 30px;
-  }
-  
-  /* Recommendations */
-  
-  .all_recommendations {
-    display: flex;
-    align-items: center;
-    margin-left: 1in;
-    flex-direction: row;
-    flex-flow: wrap;
-    padding: 20px;
-  }
-  
-  .recommendation {
-    font-style: italic;
-    text-align: left;
-    width: 21.875rem;
-    padding: 1rem;
-    background-color: #fff;
-    border-radius: 11px;
-    box-shadow: 0 3px 10px var(--primary-shadow);
-    padding: 20px;
-    margin: 10px;
-    border:1px solid gray;
-    font-size: 18px;
-    height:150px
-  }
-  
-  .recommendation span {
-    color: #7600bc;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
   }
   
   /* Scroll to Top Button */
@@ -323,4 +291,61 @@ body {
     border-radius: 6px;
     text-align: center;
     cursor: pointer;
+  }
+
+  /* Education */
+
+  .all-education {
+    display: flex;
+    flex-direction: column;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .education {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+    box-shadow: 0 3px 10px gray;
+  }
+
+  .education:hover {
+    background-color: #F6D7FA;
+  }
+
+  .education img {
+    width: 300px;
+  }
+
+  .education-info {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    width: 100%;
+  }
+
+  .education-info div {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .education-info h3 {
+    font-size: 40px;
+  }
+
+  .education-info h4 {
+    font-size: 30px;
+  }
+
+  .education-info h3, h4 {
+    font-style: italic;
+    margin: 30px;
   }

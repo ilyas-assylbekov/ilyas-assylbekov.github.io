@@ -10,7 +10,7 @@
     <nav>
       <div id="home">
         <div class="profile_name">
-          Ilyas Assylbekov
+          <div class="contact_info" style="font-style:normal; font-size: 30px; margin-bottom: 5px;">Ilyas Assylbekov</div>
           <div class="contact_info">
             <img src="images/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
           ilyas.asylbekov1305@gmail.com
@@ -19,15 +19,20 @@
         <div class="contact_info">
           <img src="images/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
           +7 (771) 959-3045
-          Astana, Kazakhstan
         </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+            <img src="images/location.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+            Astana, Kazakhstan
+          </div>
         </div>
         <div class="topdiv">
           <a class="topmenu" href="#about-me">About Me</a>
           <!-- Add the links for Skills, Projects and Recommendation here -->
+          <a class="topmenu" href="#education">Education</a>
+          <a class="topmenu" href="#certifications">Certifications</a>
           <a class="topmenu" href="#skills">Skills</a>
           <a class="topmenu" href="#projects">Projects</a>
-          <a class="topmenu" href="#recommendations">Recommendation</a>
         </div>
       </div>    
     </nav>
@@ -40,14 +45,43 @@
 
       <div>
           <h1>
-            Hi, I'm Ilyas! <img src="https://images.emojiterra.com/google/noto-emoji/unicode-15/animated/1f44b.gif" width="60px"/>
+            Hello, I'm Ilyas! <img src="https://images.emojiterra.com/google/noto-emoji/unicode-15/animated/1f44b.gif" width="60px"/>
           </h1>
           <p>
-            I am an upcoming full stack developer.
-            I have worked on applications and microservices deployed on IBM Cloud. 
-            I am an avid user tof IBM Watson Services and have worked on Watson Assistant, NLU, Sentiment analyzer to name a few.
+            I am an upcoming full stack and game developer. I worked on applications using IBM Cloud services.
+            I have developed games using LÖVE game engine in Lua. Currently pursuing Bachelors in Computer Science.
+            Open to intern at your company!
           </p>
       </div>
+    </section>
+
+    <!--Education-->
+    <section id="education">
+        <h2>Education</h2>
+        <div style="clear:both;"></div>
+        <a href="https://nu.edu.kz/" target="_blank">
+            <div class="all-education">
+                <div class="education">
+                    <div class="education-info">
+                        <div>
+                            <h3>Nazarbayev University</h3>
+                            <h4 style="margin-left: auto;">August 2022 - Present</h4>
+                        </div>
+                        <div style="font-weight: normal;">
+                            <h4>GPA: 3.6/4.0</h4>
+                            <h4 style="margin-left: auto;">Astana, Kazakhstan</h4>
+                        </div>
+                    </div>
+                    <img src="images/nu.png">
+                </div>
+            </div>
+        </a>
+    </section>
+
+    <!--Certifications-->
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <div style="clear:both;"></div>
     </section>
               
     <!-- Skills -->
@@ -58,18 +92,50 @@
       <div class="all_skills">
         <div class="skill">
           <img src="images/html5.png"/>
-          <h6>HTML</h6>
-          <p>2 years experience</p>
-        </div>  
+          <h6>HTML5</h6>
+        </div>
+
+        <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/363px-CSS3_logo_and_wordmark.svg.png"/>
+            <h6>CSS3</h6>
+          </div> 
 
         <div class="skill">
           <img src="images/js.jpeg"/>
           <h6>JavaScript</h6>
-          <p>3 years experience</p>
         </div>  
 
         <!-- Add more skills here -->
 
+        <div class="skill">
+            <img src="images/cpp.png"/>
+            <h6>C++</h6>
+          </div>  
+  
+        <div class="skill">
+            <img src="images/java.png"/>
+            <h6>Java</h6>
+        </div>
+
+        <div class="skill">
+            <img src="images/python.png"/>
+            <h6>Python</h6>
+          </div>  
+  
+        <div class="skill">
+            <img src="images/lua.gif"/>
+            <h6>Lua</h6>
+        </div>
+
+        <div class="skill">
+            <img src="images/love2d.webp"/>
+            <h6>LÖVE</h6>
+        </div>
+
+        <div class="skill">
+            <img src="images/ibm-cloud.png"/>
+            <h6>IBM Cloud</h6>
+        </div>
 
       </div>
     </section>
@@ -105,36 +171,6 @@
     </div>
     </section>
     <div style="clear:both;"></div>
-
-    <!-- Recommendations -->
-    <section id="recommendations">
-      <h2>Recommendations</h2>
-      <div style="clear:both;"></div>
-      <div class="all_recommendations" id="all_recommendations">
-        <div class="recommendation">
-          <span>&#8220;</span>
-          Jane is a very quick learner and quickly grasps key concepts of Web development. 
-          She got a great attitude & she is an excellent team player. 
-          She has a curious mind and asks the right question. 
-          She takes initiative within a team and has potentials to lead the team.
-          <span>&#8221;</span>
-        </div>
-        <div class="recommendation">
-          <span>&#8220;</span>
-          Working with Jane has been an awesome experience. 
-          She is highly knowledgable and always goes the extra step to make sure everything is right. 
-          For any future projects that need her expertise I would definitely want to work with her again.
-          <span>&#8221;</span>
-        </div>
-        <div class="recommendation">
-          <span>&#8220;</span>
-          I had worked along with Jane during the initial phase of our venture which needed Web development. 
-          She is a committed resource who has in depth knowledge about the domain. 
-          She will be an asset for any organisation! 
-          <span>&#8221;</span>
-        </div>
-      </div>
-    </section>
 
     <!-- Recommendation Form -->
     <section id="contact">
