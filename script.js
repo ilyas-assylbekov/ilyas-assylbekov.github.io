@@ -6,5 +6,4 @@ document.addEventListener('DOMContentLoaded', function () {
       socialsMenu.style.left = socialsMenu.style.left === '0px' ? '-120%' : '0px';
       showSocials.textContent = socialsMenu.style.left === '0px' ? "Hide Socials" : "Show Socials";
     });
-  });
-  
+});

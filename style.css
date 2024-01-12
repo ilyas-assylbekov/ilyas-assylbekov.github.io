@@ -148,6 +148,7 @@ body {
   
   .skill img {
     height: 100px;
+    max-width: 100%;
     align-items: center;
   }
   
